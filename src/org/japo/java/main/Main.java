@@ -34,13 +34,15 @@ public final class Main {
         final int canicasf = 1;
 
             System.out.printf("Secuencia de Canicas%n====================%n");
-            System.out.printf("Nombre de la canica ..........: %s%n", Namecanica);
+            System.out.printf("Nombre de la canica ..........: %s%n"
+                    , Namecanica);
             System.out.printf("---%n");
             System.out.printf("Número de canicas inicial ....: %d%n", canicasi);
             System.out.printf("Número de canicas final ......: %d%n", canicasf);
                 resto = canicasi - canicasf;
             System.out.printf("---%n");
-            System.out.printf(Locale.ENGLISH, "Número de canicas perdidas ...: %d%n", resto);
+            System.out.printf(Locale.ENGLISH, "Número de canicas perdidas ...: "
+                    + "%d%n", resto);
 
     }
 }
